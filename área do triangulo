@@ -1,0 +1,13 @@
+#include <iostream>
+
+int main(int argc, char** argv) {
+	float base, altura, area;
+	printf ("insira o valor referente a base");
+	scanf ("%f", & base);
+	printf ("insira o valor referente a altura");
+	scanf ("%f" , & altura);
+	area = (base*altura)/2;
+	printf ("A area do triangulo = %0.2f" , area); 
+	
+	return 0;
+}
