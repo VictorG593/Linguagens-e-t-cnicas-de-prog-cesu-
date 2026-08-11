@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+#define pi 3.141597 // é basicamente um macro pra substituir o "pi" por "3.14"
+int main(int argc, char *argv[]) {
+float r, area; 
+printf ("insira o raio R do circulo");
+scanf ("%f", &r );
+area = pi *(r*r);
+printf ("A area do circulo de raio R %f = %f", r, area);
+ 
+ float B, b, h;
+ printf ("insira o valor da base maior");
+ scanf ("%f", &B);
+ 
+ printf ("insira o valor da base menor");
+ scanf ("%f", &b);
+ 
+ printf ("insira o valor da altura");
+ scanf ("%f", &h);
+ area = (b + B)* h/2;
+ 
+printf("A area do trapezio = %f", area); 
+	return 0;
+}
+
