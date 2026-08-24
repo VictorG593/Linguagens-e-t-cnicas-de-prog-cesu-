@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(int argc, char *argv[]) {
+int a, b, c, maior_temp, maior;
+printf ("insira os valores de a, b, c:");
+scanf ("%d %d %d", &a, &b, &c);
+if (a>b && a>c) {
+ printf ("%d, eh maior",a);
+ }
+if (b>a && b>c) {
+printf ("%d, eh maior",b);
+ }
+ if (c>b && c>a) {
+ printf ("%d, eh maior",c);
+}
+return 0;
+}
